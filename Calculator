@@ -1,0 +1,36 @@
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	char oper;
+	printf("Enter the value of a:   ");
+	scanf("%d",&a);
+	printf("Enter the value of b:  ");
+	scanf("%d",&b);
+	printf("Enter the operator:   ");
+	scanf(" %c ",&oper);
+	
+	if(oper == '+')
+	{
+		int sum = a+b;
+		printf("Addition = %d",sum);
+	}
+	else if(oper == '-')
+	{
+		int sub = a-b;
+		printf("subtraction = %d",sub);
+	}
+	else if(oper == '*')
+	{
+		int mul = a*b;
+		printf("Multiplication = %d",mul);
+	}
+	else if(oper == '/')
+	{
+		int div = a/b;
+		printf("Division = %d",div);
+	}
+
+		
+	
+
