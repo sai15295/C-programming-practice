@@ -9,7 +9,7 @@ int main()
 		
 		if(age>=18)
 		{
-			printf("You are eligible for voting.\n");
+			printf("You are eligible you are eligible for voting\n");
 			printf("Select your leader.");
 		}
 		else
